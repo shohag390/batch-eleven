@@ -244,6 +244,63 @@ select {
     font-weight: 500;
 }
 
+/* Recent Section here */
+
+.recent-news {
+    padding: 32px 128px;
+}
+
+.recent-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+
+.recent-card {
+    padding: 38px;
+    background: #ffffff;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.recent-image {
+    width: 326px;
+    height: 245px;
+    border-radius: 19px;
+}
+
+.recent-right h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 9px;
+}
+
+.recent-right img {
+    width: 107px;
+    height: 32px;
+
+}
+
+.card-date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(14, 14, 14, 0.7);
+    padding: 9px 0px;
+}
+
+.card-paragraph {
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 19px;
+    padding-bottom: 25px;
+}
+
 /* donate section here */
 .donate {
     padding: 32px 128px;
@@ -308,8 +365,6 @@ select {
     font-size: 16px;
     cursor: pointer;
 }
-
-
 
 /* newsletter section  */
 
