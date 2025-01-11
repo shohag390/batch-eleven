@@ -170,7 +170,7 @@ body {
 
 /* comment section */
 .comment {
-    padding: 32px 128px;
+    padding: 0px 128px 32px 128px;
 }
 
 .comment-contant {
@@ -245,6 +245,61 @@ select {
 }
 
 
+/* newsletter section  */
+
+.newsletter {
+    padding: 32px 128px 64px 128px;
+}
+
+.newsletter-content {
+    padding: 64px 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #c6e4d6;
+    border-radius: 19px;
+}
+
+.newsletter-content h4 {
+    color: #0e0e0e;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.newsletter-content p {
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.subscribe-from {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 480px;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 6px 0px 0px 6px;
+    background: #ffffff;
+    outline: none;
+}
+
+.subscribe-btn {
+    border-radius: 0px 6px 6px 0px;
+    background: #006a50;
+    padding: 14px 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
 
 /* footer section here */
 
