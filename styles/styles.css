@@ -28,6 +28,13 @@ body {
     padding-bottom: 25px;
 }
 
+.section-para {
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    padding-bottom: 25px;
+    line-height: 19px;
+}
+
 
 /* Navbar section */
 .navbar {
@@ -94,7 +101,6 @@ body {
     padding: 32px 128px;
 }
 
-
 .pillare-card-container {
     display: flex;
     justify-content: space-between;
@@ -111,13 +117,13 @@ body {
 
 .pillare-card h4 {
     color: #0e0e0ecc;
-    font-size: 16PX;
     font-weight: 700;
     padding: 20px 0px 9px 0px;
 }
 
 .pillare-card p {
     color: #0e0e0eb3;
+    line-height: 19px;
 }
 
 /* vision-of-future section here */
@@ -137,6 +143,63 @@ body {
 .vision-card {
     padding: 25px;
     width: 100%;
+    border-radius: 13px;
+}
+
+.vision-card h4 {
+    padding: 20px 0px 9px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 700;
+}
+
+.vision-card p {
+    color: #0e0e0eb3;
+    height: 80px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.vision-btn {
+    padding: 9px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+/* comment section */
+.comment {
+    padding: 32px 128px;
+
+}
+
+.comment-contant {
+    padding: 38px 19px;
+    border: 1px solid #0e0e0e26;
+    border-radius: 12px;
+    background: #ffffff url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 20px 15px;
+}
+
+.comment-para {
+    font-weight: 400;
+    color: #0e0e0eb3;
+    padding-bottom: 25px;
+    line-height: 19px;
+    padding-bottom: 9px;
+}
+
+.comment-profile h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0e0e0ecc;
+    padding-bottom: 3px;
+}
+
+.comment-profile p {
+    color: rgba(14, 14, 14, 0.6);
 }
 
 
@@ -145,14 +208,31 @@ body {
 .footer {
     background: #ffffff;
     padding: 40px 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+hr {
+    color: #0e0e0e;
+}
+
+.social-icone {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .social-icone img {
-    width: 19px;
-    height: 19px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
 }
+
+
 
 
 /* 
