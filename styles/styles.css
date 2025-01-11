@@ -177,7 +177,7 @@ body {
     padding: 38px 19px;
     border: 1px solid #0e0e0e26;
     border-radius: 12px;
-    background: url("/assets/quote-bg.png");
+    background: url("/assets/quote-bg.png"), #ffffff;
     background-repeat: no-repeat;
     background-position: 20px 15px;
 }
